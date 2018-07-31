@@ -19,6 +19,7 @@ During the cleaning on raw data some hypotheses and aproximation were used.
 * Time was approximated to the nearest hour, eliminating the minutes;
 * Newer messages replace the older one;
 
-### 02- EDA	
+### 02- EDA
+TDB	
 
 ### 03- Results	
