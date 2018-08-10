@@ -18,7 +18,11 @@ The library used to clean the data is based on regex operation and the .csv file
 During the cleaning on raw data some hypotheses and aproximation were used.
 * Time was approximated to the nearest hour, eliminating the minutes;
 * Newer messages replace the older one;
-
+* The raw data must be in this format '2015010100 - raw_message=';
+* TAF BECMG uses previous data to fill in blank fields;
+* TAF FM overlaps the previous data, so blanks mean that no phenomenon happened;
+* NSW;
+* NSC;
 ### 02- EDA
 TDB	
 

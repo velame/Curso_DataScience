@@ -1,0 +1,24 @@
+METAR
+46 aers -> 9:13:39 10:12:50 - 1h (tempo real)
+70 ares -> 10:21:24 11:51:11 1:30h
+
+TAF
+46 aers -> 15:18:20 15:49:03 31min
+70 aers -> 17:30:14 18:22:12 52min 
+
+WO 
+7 aers: 09:17:46  09:24:28 7min
+ 
+
+TOTAL DE TEMPO para download de 1 ano de dados:
+	sudeste outrasregioes total
+METAR:   01:00h   01:30h      02:30h
+TAF:	 00:30h   00:50h      01:20h	       
+WO:           00:07h          00:07h
+TOTAL:   01:30h   02:15h      03:57h 
+
+Resumo: Para 1 ano de todos os aeroportos cerca
+	- metar: 2:30h,
+	- taf  : 1:20h,
+	- wo   : 0:07h;
+Portanto, cerca de 4h para 1 ano de dados, devendo-se rodar 5 vezes o arquivo com alterações.
