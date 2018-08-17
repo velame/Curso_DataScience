@@ -22,7 +22,8 @@ import io
 #    return dfs
 
 db_dir ='../3.DBGenerator/output' 
-df = pd.read_csv('../3.DBGenerator/output/2016/SBGR_2016.csv',index_col=0,parse_dates=[0])
+df = pd.read_csv('../3.DBGenerator/output/2017/SBGR_2017.csv',index_col=0,parse_dates=[0])
+#df = pd.read_csv('../3.DBGenerator/output/2016/SBGR_2016.csv',index_col=0,parse_dates=[0])
 df = df.dropna(axis=0, how='any')
 
 df.plot(y=["metar_wind","taf_wind"],style='.')
@@ -40,3 +41,7 @@ df[0:100:6].plot.bar(y=["metar_wind","taf_wind"],style='.')
 #####
 
 df[0:200].plot.bar(y=["metar_TS","taf_TS"],style='.')
+
+df.plot.scatter(y='metar_wind',x='taf_wind',alpha=1/15)
+df.plot.scatter(x='metar_wind',y='taf_wind',alpha=1/15)
+df.plot.scatter(x='metar_wind',y='taf_wind',c='metar_TS', colormap='jet',alpha=1/15)
