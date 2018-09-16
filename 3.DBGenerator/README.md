@@ -22,7 +22,7 @@ Steps:
 * Change the year variable on "db_generator.py" (e.g.: year = "2017");
 * Run "db_generator.py"; 
 
-Following this steps a .csv file of the year selected will be created for each airport on raw data.  
+Following this steps a .csv file of the year selected will be created on ./output directory for each airport on raw data.  
 
 #### How to make additions in the data extration process?
 
