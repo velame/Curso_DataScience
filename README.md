@@ -6,7 +6,7 @@ The project in this repository is an analysis of aerodrome observations and fore
 
 ### RAW DATA
 
-The raw data of METAR and TAF messages are avaiable on [REDEMET](https://www.redemet.aer.mil.br/), the Meteorology Network of the Brazillian Aeronautical Command. REDEMET provides some [tools](https://www.redemet.aer.mil.br/?i=facilidades&p=api-redemet), such as APIs, scripts and WGET, for users to download such messages. REDEMET maintains meteorological data for all aerodromes in Brazil from a few years ago to current time.
+The raw data of METAR and TAF messages are avaiable on [REDEMET](https://www.redemet.aer.mil.br/), the Meteorology Network of the Brazilian Aeronautical Command. REDEMET provides some [tools](https://www.redemet.aer.mil.br/?i=facilidades&p=api-redemet), such as APIs, scripts and WGET, for users to download such messages. REDEMET maintains meteorological data for all aerodromes in Brazil from a few years ago to current time.
 
 ### 01- Data cleaning and preparation
 
@@ -27,7 +27,7 @@ During the cleaning on raw data some hypotheses and aproximations were used.
 
 ### 02- Exploratory Data Analysis (EDA)
 
-The aim of data analysis was to evaluate the quality of TAF wind speed forecasting and to reveal any patterns regarding the accuracy of the forecasts. To achieve this, the error measurement RMSE was used. The RMSE was calculated on absolute mode and by wind speed scale. Also, some comparisons between the error measurement and the TS, TCU and CB phenomenona were verified. Only southeast Brazil airports were analysed, and the target was the Guarulhos  airport, because it is the most important brazilian airport.      
+The aim of data analysis was to evaluate the quality of TAF wind speed forecasting and to reveal any patterns regarding the accuracy of the forecasts. To achieve this, the error measurement RMSE was used. The RMSE was calculated on absolute mode and by wind speed scale. Also, some comparisons between the error measurement and the TS, TCU and CB phenomenona were verified. Only southeast Brazil airports were analysed, and the target was the Guarulhos  airport, because it is the most important Brazilian airport.      
 
 ### 03- Results	
 
